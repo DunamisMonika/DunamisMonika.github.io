@@ -1,0 +1,73 @@
+        body {
+    color: #ffffff;
+    font-family: 'Imprima', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-user-select: none !important;
+}
+    .vegas-slide-inner
+        {
+            width: 100% !important;
+        }
+      section ::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*background-image: linear-gradient(to bottom right,#002f4b,#dc4225);*/
+	background: black;
+	opacity: .6; 
+  }
+span ::before
+{
+    content: '';
+   background: transparent !important;
+    
+}
+h2 ::before
+{
+    content: '';
+   background: transparent !important;
+    
+}
+.word1
+{
+        color: #00a000;
+}
+.word2
+{
+        color: #00a000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px 0;
+    color: #333;
+    font-weight: normal;
+    line-height: 1.5;
+    color:#fff;
+    font-size: 40pt;
+}
+
+#monica
+{
+    background-color: transparent !important;
+}
+@media only screen and (max-width:767px)
+{
+    #monica
+    {
+            position: absolute;
+    top: 75vh !important;
+        width: 100%;
+    }
+}
